@@ -66,19 +66,20 @@ export default function ExhibitionPage() {
                 {/* Section 1: Title */}
                 <div className="text-center max-w-4xl mb-24 mx-auto">
                     <p className="mt-4 text-2xl text-black font-semibold text-justify">
-                        In the course "Diverse Brain" we aimed to innovate on
-                        how people communicate and interact with knowledge
-                        through the use of 3-dimensional exhibition pieces. Our
-                        focus has been the brain, as it is not only incredibly
-                        fascinating but also common for having misconceptions
-                        around it, presenting us with new opportunities of
-                        dismantling them. The exhibition focuses on highlighting
-                        various topic about the brain to clear up common
-                        misconceptions like the notion of a "left brain" for
-                        logical thinking and "righ brain" for creative thinking.
-                        In this course we co-educated neuroscience, computer
-                        science as well and many other students from Berlins
-                        major universities to go beyond the limits of one
+                        In the course &quot;Diverse Brain&quot; we aimed to
+                        innovate on how people communicate and interact with
+                        knowledge through the use of 3-dimensional exhibition
+                        pieces. Our focus has been the brain, as it is not only
+                        incredibly fascinating but also common for having
+                        misconceptions around it, presenting us with new
+                        opportunities of dismantling them. The exhibition
+                        focuses on highlighting various topic about the brain to
+                        clear up common misconceptions like the notion of a
+                        &quot;left brain&quot; for logical thinking and
+                        &quot;righ brain&quot; for creative thinking. In this
+                        course we co-educated neuroscience, computer science as
+                        well and many other students from Berlins major
+                        universities to go beyond the limits of one
                         specialization and benefit from as many perspectives as
                         we could.
                     </p>
@@ -251,8 +252,8 @@ export default function ExhibitionPage() {
                                 Everybody presumably thinks in different ways.
                                 How can you think in different ways when all the
                                 brains look the same? The key to the question is
-                                realizing they don't all look the same. One can
-                                see this in MR Images, in statistics and can
+                                realizing they don&apos;t all look the same. One
+                                can see this in MR Images, in statistics and can
                                 read it in papers. But can we actually see the
                                 difference? This piece prompts you to just see
                                 for yourself! We printed 10 brains from

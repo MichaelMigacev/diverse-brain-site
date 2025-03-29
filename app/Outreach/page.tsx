@@ -14,7 +14,8 @@ export default function OutreachPage() {
                         rel="noopener noreferrer"
                         className="text-2xl font-semibold"
                     >
-                        The Diverse Brain Course featured at "Meet the BUA"
+                        The Diverse Brain Course featured at &quot;Meet the
+                        BUA&quot;
                     </a>
                     <p className="text-gray-600 mt-1">November 2024</p>
                 </div>
