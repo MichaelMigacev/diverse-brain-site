@@ -14,6 +14,11 @@ const nextConfig = {
           },
       ];
   },
+  output: "export", // Ensures a static export
+  basePath: "/diverse-brain-site", // Set this to your GitHub repository name
+  images: {
+    unoptimized: true, // Ensures Next.js images work on GitHub Pages
+  },
 };
 
 export default nextConfig;
