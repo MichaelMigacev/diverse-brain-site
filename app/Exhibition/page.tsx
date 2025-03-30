@@ -9,7 +9,7 @@ export default function ExhibitionPage() {
                 {/* Container for Logos */}
                 <div className="flex justify-evenly items-center w-full max-w-7xl mx-auto px-4">
                     <Image
-                        src="diverse-brain-site/logos/FU_Logo.svg"
+                        src="/diverse-brain-site/logos/FU_Logo.svg"
                         alt="Logo 1"
                         width={120}
                         height={120}
@@ -56,7 +56,7 @@ export default function ExhibitionPage() {
             <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
                 <div className="text-center mb-12">
                     <Image
-                        src="diverse-brain-site/logos/logo_blue_writing.svg" // Correct path to the logo image
+                        src="/diverse-brain-site/logos/logo_blue_writing.svg" // Correct path to the logo image
                         alt="Logo Blue"
                         width={0} // Set width to 0 to allow width control by Tailwind
                         height={0} // Set height to 0 to allow height control by Tailwind
