@@ -16,28 +16,28 @@ export default function ExhibitionPage() {
                         className="object-contain h-16 w-auto"
                     />
                     <Image
-                        src="/logos/HU_Logo.svg"
+                        src="/diverse-brain-site/logos/HU_Logo.svg"
                         alt="Logo 1"
                         width={120}
                         height={120}
                         className="object-contain h-16 w-auto"
                     />
                     <Image
-                        src="/logos/TU_Logo.svg"
+                        src="/diverse-brain-site/logos/TU_Logo.svg"
                         alt="Logo 1"
                         width={120}
                         height={120}
                         className="object-contain h-16 w-auto"
                     />
                     <Image
-                        src="/logos/Char_Logo.svg"
+                        src="/diverse-brain-site/logos/Char_Logo.svg"
                         alt="Logo 1"
                         width={120}
                         height={120}
                         className="object-contain h-16 w-auto"
                     />
                     <Image
-                        src="/logos/BUA_Logo_hoch_2_RGB_24.svg"
+                        src="/diverse-brain-site/logos/BUA_Logo_hoch_2_RGB_24.svg"
                         alt="Logo 2"
                         width={120}
                         height={120}
@@ -45,7 +45,7 @@ export default function ExhibitionPage() {
                     />
 
                     <Image
-                        src="/logos/CCNB-blau-s.jpg"
+                        src="/diverse-brain-site/logos/CCNB-blau-s.jpg"
                         alt="Logo 3"
                         width={120}
                         height={120}
@@ -137,7 +137,7 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/puzzle_simple.jpeg" />
+                    <BlurImage src="/diverse-brain-site/pictures/puzzle_simple.jpeg" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -189,7 +189,7 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/labyrinth_simple.jpeg" />
+                    <BlurImage src="/diverse-brain-site/pictures/labyrinth_simple.jpeg" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -229,7 +229,7 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/marble_simple.jpeg" />
+                    <BlurImage src="/diverse-brain-site/pictures/marble_simple.jpeg" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -264,7 +264,7 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/brain_simple.jpeg" />
+                    <BlurImage src="/diverse-brain-site/pictures/brain_simple.jpeg" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -321,7 +321,7 @@ export default function ExhibitionPage() {
                         </div>
                     </div>
 
-                    <BlurImage src="/pictures/printing_rainbow.jpeg" />
+                    <BlurImage src="/diverse-brain-site/pictures/printing_rainbow.jpeg" />
                 </div>
 
                 {/* <div className="max-w-7xl mx-auto my-12 px-4">
@@ -344,7 +344,7 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/slicercleancolored1.png" />
+                    <BlurImage src="/diverse-brain-site/pictures/slicercleancolored1.png" />
                 </div> */}
             </div>
         </div>
