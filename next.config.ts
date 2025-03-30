@@ -19,6 +19,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Ensures Next.js images work on GitHub Pages
   },
+  assetPrefix: "/diverse-brain-site/", // Set this to your GitHub repository name
+  trailingSlash: true, // Ensures URLs end with a slash to prevent broken paths
 };
 
 export default nextConfig;
