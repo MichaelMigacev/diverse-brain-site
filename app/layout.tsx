@@ -10,8 +10,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-    title: "Teaching Event",
-    description: "A teaching event leading to an exhibition",
+    title: "Diverse Brain",
+    description: "Exhibtion about the brain and common misconceptions",
 };
 
 export default function RootLayout({

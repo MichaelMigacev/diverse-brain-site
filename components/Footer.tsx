@@ -18,21 +18,21 @@ export default function Footer() {
                         alt="HU Berlin"
                         width={120}
                         height={120}
-                        className="h-12 sm:h-16 lg:h-24 w-auto object-contain"
+                        className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                     <Image
                         src="/diverse-brain-site/logos/TU_Logo.svg"
                         alt="TU Berlin"
                         width={120}
                         height={120}
-                        className="h-12 sm:h-16 lg:h-24 w-auto object-contain"
+                        className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                     <Image
                         src="/diverse-brain-site/logos/Char_Logo.svg"
                         alt="Charité"
                         width={120}
                         height={120}
-                        className="h-12 sm:h-16 lg:h-24 w-auto object-contain"
+                        className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                 </div>
 
@@ -43,14 +43,14 @@ export default function Footer() {
                         alt="CCNB"
                         width={120}
                         height={120}
-                        className="h-12 sm:h-16 lg:h-24 w-auto object-contain"
+                        className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                     <Image
                         src="/diverse-brain-site/logos/BUA_Logo_hoch_2_RGB_24.svg"
                         alt="BUA"
                         width={120}
                         height={120}
-                        className="h-12 sm:h-16 lg:h-24 w-auto object-contain"
+                        className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                     <p className="text-sm md:text-base font-medium max-w-lg">
                         Gefördert vom Bundesministerium für Bildung und
@@ -67,14 +67,14 @@ export default function Footer() {
                             alt="BMBF"
                             width={120}
                             height={120}
-                            className="h-12 sm:h-16 lg:h-24 w-auto object-contain"
+                            className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                         />
                         <Image
                             src="/diverse-brain-site/logos/senat_logo_weiss.png"
                             alt="Senat"
                             width={120}
                             height={120}
-                            className="h-12 sm:h-16 lg:h-24 w-auto object-contain"
+                            className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                         />
                     </div>
                 </div>

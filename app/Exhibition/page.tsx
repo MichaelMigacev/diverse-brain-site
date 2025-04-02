@@ -17,7 +17,7 @@ export default function ExhibitionPage() {
                 </div>
                 {/* Section 1: Title */}
                 <div className="text-center max-w-4xl mb-24 mx-auto">
-                    <p className="mt-4 text-2xl text-black font-semibold text-justify">
+                    <p className="mt-4 sm:text-lg md:text-xl lg:text-2xl text-black font-semibold text-justify">
                         In the course &quot;Diverse Brain&quot; we aimed to
                         innovate on how people communicate and interact with
                         knowledge through the use of 3-dimensional exhibition
@@ -42,28 +42,28 @@ export default function ExhibitionPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                         {/* Participant Names on the Left */}
                         <div className="flex items-center justify-center">
-                            <h3 className="text-xl font-semibold text-black space-y-1">
+                            <h3 className="sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
                                 <div>
                                     Cora-Lorraine Sachs{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Psychology (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Nazlican Göksu Tekdogan{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computational Sciences (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Jakob Schmock{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computer Science (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Jonas Heinemann{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computer Science (FU Berlin)
                                     </span>
                                 </div>
@@ -72,7 +72,7 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
-                            <p className="text-black text-xl font-medium text-justify px-16 py-4">
+                            <p className="text-black sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-6 md:px-12 lg:px-16 py-4">
                                 Can our brain self repair? How could such a
                                 complex organ do that? Here we try to answer the
                                 question and bring understanding to the complex
@@ -308,7 +308,7 @@ function BlurImage({ src }: { src: string }) {
 
     return (
         <div
-            className="w-full h-80 bg-gray-200 relative overflow-hidden"
+            className="w-full sm:h-40 md:h-64 lg:h-80 bg-gray-200 relative overflow-hidden"
             onMouseMove={(e) => {
                 const { left, top } = e.currentTarget.getBoundingClientRect();
                 setMousePosition({ x: e.clientX - left, y: e.clientY - top });
