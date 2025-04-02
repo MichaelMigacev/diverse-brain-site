@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function TeachingPage() {
     return (
         <div className="w-full mx-auto px-4">
-            <div className="max-w-6xl mx-auto overflow-hidden pb-16">
+            <div className="max-w-6xl mx-auto overflow-hidden pb-16 h-32 sm:h-40 md:h-64 lg:h-80">
                 <Image
                     src="/diverse-brain-site/pictures/collage_cropped.PNG" // Replace with your actual image path
                     alt="Teaching Page Banner"
                     width={1920}
                     height={540}
-                    className="object-cover w-full h-80"
+                    className="object-cover w-full h-full sm:h-auto"
                     priority
                 />
             </div>

@@ -12,12 +12,12 @@ export default function ExhibitionPage() {
                         alt="Logo Blue"
                         width={0} // Set width to 0 to allow width control by Tailwind
                         height={0} // Set height to 0 to allow height control by Tailwind
-                        className="mx-auto w-1/3 h-auto" // Centers and sets the width to 50%
+                        className="mx-auto w-2/3 sm:w-2/3 md:1/2 lg:w-1/3 h-auto" // Centers and sets the width to 50%
                     />
                 </div>
                 {/* Section 1: Title */}
                 <div className="text-center max-w-4xl mb-24 mx-auto">
-                    <p className="mt-4 sm:text-lg md:text-xl lg:text-2xl text-black font-semibold text-justify">
+                    <p className="mt-4 text-lg sm:text-lg md:text-xl lg:text-2xl text-black font-semibold text-justify">
                         In the course &quot;Diverse Brain&quot; we aimed to
                         innovate on how people communicate and interact with
                         knowledge through the use of 3-dimensional exhibition
@@ -42,28 +42,28 @@ export default function ExhibitionPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                         {/* Participant Names on the Left */}
                         <div className="flex items-center justify-center">
-                            <h3 className="sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
                                 <div>
                                     Cora-Lorraine Sachs{" "}
-                                    <span className="font-normal sm:text-sm md:text-base lg:text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Psychology (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Nazlican Göksu Tekdogan{" "}
-                                    <span className="font-normal sm:text-sm md:text-base lg:text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computational Sciences (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Jakob Schmock{" "}
-                                    <span className="font-normal sm:text-sm md:text-base lg:text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computer Science (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Jonas Heinemann{" "}
-                                    <span className="font-normal sm:text-sm md:text-base lg:text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computer Science (FU Berlin)
                                     </span>
                                 </div>
@@ -72,7 +72,7 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
-                            <p className="text-black sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-6 md:px-12 lg:px-16 py-4">
+                            <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Can our brain self repair? How could such a
                                 complex organ do that? Here we try to answer the
                                 question and bring understanding to the complex
@@ -96,28 +96,28 @@ export default function ExhibitionPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                         {/* Participant Names on the Left */}
                         <div className="flex items-center justify-center">
-                            <h3 className="text-xl font-semibold text-black space-y-1">
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
                                 <div>
                                     Alexandra Groß{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Psychology (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Andre Sebayang{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Psychology (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Darvin Hassan{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Psychology (TU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Ahmed Abdelfatah{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computational Neuroscience (TU Berlin)
                                     </span>
                                 </div>
@@ -126,7 +126,7 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
-                            <p className="text-black text-xl font-medium text-justify px-16 py-4">
+                            <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Am I a right or left brained person? These are
                                 one of the many questions people seem to be
                                 interested in. But how can we answer this
@@ -148,16 +148,16 @@ export default function ExhibitionPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                         {/* Participant Names on the Left */}
                         <div className="flex items-center justify-center">
-                            <h3 className="text-xl font-semibold text-black space-y-1">
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
                                 <div>
                                     Viola Zeoli{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Psychology (FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Filippo Ghirardini{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computer Science (FU Berlin)
                                     </span>
                                 </div>
@@ -166,7 +166,7 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
-                            <p className="text-black text-xl font-medium text-justify px-16 py-4">
+                            <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Do our brains turn off when we go to sleep?
                                 Well, no but what is actually happening in there
                                 while we do sleep? A big part of sleep is to
@@ -188,10 +188,10 @@ export default function ExhibitionPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                         {/* Participant Names on the Left */}
                         <div className="flex items-center justify-center">
-                            <h3 className="text-xl font-semibold text-black space-y-1">
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
                                 <div>
                                     Michael Migacev{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computer Science (FU Berlin)
                                     </span>
                                 </div>
@@ -200,7 +200,7 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
-                            <p className="text-black text-xl font-medium text-justify px-16 py-4">
+                            <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Everybody presumably thinks in different ways.
                                 How can you think in different ways when all the
                                 brains look the same? The key to the question is
@@ -223,10 +223,10 @@ export default function ExhibitionPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                         {/* Participant Names on the Left */}
                         <div className="flex items-center justify-center">
-                            <h3 className="text-xl font-semibold text-black space-y-1">
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
                                 <div>
                                     Michael Migacev{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computer Science (FU Berlin)
                                     </span>
                                 </div>
@@ -235,7 +235,7 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
-                            <p className="text-black text-xl font-medium text-justify px-16 py-4">
+                            <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 How did we print those brains you just saw? This
                                 piece is less about a certain scientific mystery
                                 but more about 3D-printing itself. Slowly
@@ -284,14 +284,14 @@ export default function ExhibitionPage() {
                             <h3 className="text-xl font-semibold text-black space-y-1">
                                 <div>
                                     Michael Migacev{" "}
-                                    <span className="font-normal text-lg text-gray-800">
+                                    <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
                                         Computer Science (FU Berlin)
                                     </span>
                                 </div>
                             </h3>
                         </div>
                         <div>
-                            <p className="text-black text-xl font-medium text-justify px-16 py-4">
+                            <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Brains
                             </p>
                         </div>
@@ -308,7 +308,7 @@ function BlurImage({ src }: { src: string }) {
 
     return (
         <div
-            className="w-full sm:h-40 md:h-64 lg:h-80 bg-gray-200 relative overflow-hidden"
+            className="w-full h-32 sm:h-40 md:h-64 lg:h-80 bg-gray-200 relative overflow-hidden"
             onMouseMove={(e) => {
                 const { left, top } = e.currentTarget.getBoundingClientRect();
                 setMousePosition({ x: e.clientX - left, y: e.clientY - top });
@@ -321,7 +321,7 @@ function BlurImage({ src }: { src: string }) {
                 alt="Exhibition Piece"
                 width={1200}
                 height={1000}
-                className="object-cover w-full h-full filter blur-md"
+                className="object-cover w-full h-full filter blur-md sm:h-auto"
             />
 
             {/* Clear Image with circular mask */}
@@ -337,7 +337,7 @@ function BlurImage({ src }: { src: string }) {
                     alt="Exhibition Piece Clear"
                     width={1200}
                     height={1000}
-                    className="object-cover w-full h-full"
+                    className="object-cover w-full h-full sm:h-auto"
                 />
             </div>
         </div>
