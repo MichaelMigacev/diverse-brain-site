@@ -20,18 +20,20 @@ export default function ExhibitionPage() {
                     <p className="mt-4 text-lg sm:text-lg md:text-xl lg:text-2xl text-black font-semibold text-justify">
                         In the course &quot;Diverse Brain&quot; we aimed to
                         innovate on how people communicate and interact with
-                        knowledge through the use of 3-dimensional exhibition
-                        pieces. Our focus has been the brain, as it is not only
-                        incredibly fascinating but also common for having
-                        misconceptions around it, presenting us with new
-                        opportunities of dismantling them. The exhibition
-                        focuses on highlighting various topic about the brain to
-                        clear up common misconceptions like the notion of a
-                        &quot;left brain&quot; for logical thinking and
-                        &quot;righ brain&quot; for creative thinking. In this
+                        science. We believe that through the use of
+                        3-dimensional exhibition pieces we can not only better
+                        capture the attention of the casual onlooker but also
+                        are able to communicate more direct and intuitive. Our
+                        focus has been the brain, as it is not only incredibly
+                        fascinating to us but has also been a major focus of
+                        pop-sci for quite some time. Our challenge was to
+                        highlight various topics about the brain and clear up
+                        common misconceptions. A common one would be the notion
+                        of a &quot;left brain&quot; for logical thinking and
+                        &quot;right brain&quot; for creative thinking. In this
                         course we co-educated neuroscience, computer science as
-                        well and many other students from Berlins major
-                        universities to go beyond the limits of one
+                        well as students from many other disciplines from
+                        Berlins major universities to go beyond the limits of
                         specialization and benefit from as many perspectives as
                         we could.
                     </p>
@@ -152,13 +154,15 @@ export default function ExhibitionPage() {
                                 <div>
                                     Viola Zeoli{" "}
                                     <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
-                                        Psychology (FU Berlin)
+                                        Psychology (University of Trento,
+                                        ERASMUS-student to FU Berlin)
                                     </span>
                                 </div>
                                 <div>
                                     Filippo Ghirardini{" "}
                                     <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
-                                        Computer Science (FU Berlin)
+                                        Computer Science (University of Pisa,
+                                        ERASMUS-student to FU Berlin)
                                     </span>
                                 </div>
                             </h3>

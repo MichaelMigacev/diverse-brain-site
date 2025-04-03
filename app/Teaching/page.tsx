@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TeachingPage() {
     return (
         <div className="w-full mx-auto px-4">
-            <div className="max-w-6xl mx-auto overflow-hidden pb-16 h-32 sm:h-40 md:h-64 lg:h-80">
+            <div className="max-w-6xl mx-auto overflow-hidden pb-16 h-40 sm:h-48 md:h-64 lg:h-80">
                 <Image
                     src="/diverse-brain-site/pictures/collage_cropped.PNG" // Replace with your actual image path
                     alt="Teaching Page Banner"
@@ -16,7 +16,7 @@ export default function TeachingPage() {
             <div className="max-w-5xl mx-auto px-4">
                 {/* === Teacher Section === */}
                 <section className="mb-16">
-                    <h2 className="text-2xl font-semibold mb-8 pb-2">
+                    <h2 className="text-xl sm:text-xl md:text-2xl lg:text-2xl font-semibold mb-8 pb-2">
                         Teaching Instructor
                     </h2>
 
@@ -31,15 +31,15 @@ export default function TeachingPage() {
                                 height={1000}
                                 className="object-cover w-48 h-56"
                             />
-                            <p className="text-lg font-semibold">
+                            <p className="text-base sm:text-base md:text-lg lg:text-lg font-semibold">
                                 Michael Migacev
                             </p>
-                            <p className="font-normal text-lg text-gray-800">
+                            <p className="font-normal text-base sm:text-base md:text-lg lg:text-lg text-gray-800">
                                 Not Final Picture (I promise)
                             </p>
                         </div>
                         {/* Contributions */}
-                        <ul className="list-inside text-lg font-medium w-full sm:w-1/2 px-8">
+                        <ul className="list-inside text-base sm:text-base md:text-lg lg:text-lg font-medium w-full sm:w-1/2 px-8">
                             <li className="py-0.5">
                                 Course Design and Planning
                             </li>
@@ -65,7 +65,7 @@ export default function TeachingPage() {
                 </section>
                 {/* === Teacher Section === */}
                 <section className="mb-16">
-                    <h2 className="text-2xl font-semibold mb-8 pb-2">
+                    <h2 className="text-xl sm:text-xl md:text-2xl lg:text-2xl font-semibold mb-8 pb-2">
                         Guest Lecturers and Contributors
                     </h2>
 
@@ -80,12 +80,12 @@ export default function TeachingPage() {
                                 height={1000}
                                 className="object-cover w-48 h-56"
                             />
-                            <p className="text-lg font-semibold">
+                            <p className="text-base sm:text-base md:text-lg lg:text-lg font-semibold">
                                 Sara Wesolek
                             </p>
                         </div>
                         {/* Contributions */}
-                        <ul className="list-inside text-lg font-medium w-full sm:w-1/2 px-8">
+                        <ul className="list-inside text-base sm:text-base md:text-lg lg:text-lg font-medium w-full sm:w-1/2 px-8">
                             <li className="py-0.5">
                                 Guest Lectures - fMRI Theory
                             </li>
@@ -108,12 +108,12 @@ export default function TeachingPage() {
                                 height={1000}
                                 className="object-cover w-48 h-56"
                             />
-                            <p className="text-lg font-semibold">
+                            <p className="text-base sm:text-base md:text-lg lg:text-lg font-semibold">
                                 Sascha Migaceva
                             </p>
                         </div>
                         {/* Contributions */}
-                        <ul className="list-inside text-lg font-medium w-full sm:w-1/2 px-8">
+                        <ul className="list-inside text-base sm:text-base md:text-lg lg:text-lg font-medium w-full sm:w-1/2 px-8">
                             <li className="py-0.5">Guest Lecture - Blender</li>
                             <li className="py-0.5">Assistance with Blender</li>
                         </ul>
@@ -128,12 +128,12 @@ export default function TeachingPage() {
                                 height={1000}
                                 className="object-cover w-48 h-56"
                             />
-                            <p className="text-lg font-semibold">
+                            <p className="text-base sm:text-base md:text-lg lg:text-lg font-semibold">
                                 Gian Giannini
                             </p>
                         </div>
                         {/* Contributions */}
-                        <ul className="list-inside text-lg font-medium w-full sm:w-1/2 px-8">
+                        <ul className="list-inside text-base sm:text-base md:text-lg lg:text-lg font-medium w-full sm:w-1/2 px-8">
                             <li className="py-0.5">
                                 Guest Lecture - EEG Theory
                             </li>
@@ -150,19 +150,19 @@ export default function TeachingPage() {
                                 height={1000}
                                 className="object-cover w-48 h-56"
                             />
-                            <p className="text-lg font-semibold">
+                            <p className="text-base sm:text-base md:text-lg lg:text-lg font-semibold">
                                 Jakob Schmock
                             </p>
                         </div>
                         {/* Contributions */}
-                        <ul className="list-inside text-lg font-medium w-full sm:w-1/2 px-8">
+                        <ul className="list-inside text-base sm:text-base md:text-lg lg:text-lg font-medium w-full sm:w-1/2 px-8">
                             <li className="py-0.5">Got us donuts</li>
                         </ul>
                     </div>
                 </section>
                 {/* === Teacher Section === */}
                 <section className="mb-16">
-                    <h2 className="text-2xl font-semibold mb-8 pb-2">
+                    <h2 className="text-xl sm:text-xl md:text-2xl lg:text-2xl font-semibold mb-8 pb-2">
                         Supervisers
                     </h2>
 
@@ -177,12 +177,12 @@ export default function TeachingPage() {
                                 height={1000}
                                 className="object-cover w-48 h-56"
                             />
-                            <p className="text-lg font-semibold">
+                            <p className="text-base sm:text-base md:text-lg lg:text-lg font-semibold">
                                 Dr. rer. nat. Timo Torsten Schmidt
                             </p>
                         </div>
                         {/* Contributions */}
-                        <ul className="list-inside text-lg font-medium w-full sm:w-1/2 px-8">
+                        <ul className="list-inside text-base sm:text-base md:text-lg lg:text-lg font-medium w-full sm:w-1/2 px-8">
                             <li className="py-0.5">
                                 Supervising Teaching Instructor
                             </li>
@@ -202,12 +202,12 @@ export default function TeachingPage() {
                                 height={1000}
                                 className="object-cover w-48 h-56"
                             />
-                            <p className="text-lg font-semibold">
+                            <p className="text-base sm:text-base md:text-lg lg:text-lg font-semibold">
                                 Prof. Dr. Felix Blankenburg
                             </p>
                         </div>
                         {/* Contributions */}
-                        <ul className="list-inside text-lg font-medium w-full sm:w-1/2 px-8">
+                        <ul className="list-inside text-base sm:text-base md:text-lg lg:text-lg font-medium w-full sm:w-1/2 px-8">
                             <li className="py-0.5">Professor</li>
                         </ul>
                     </div>
