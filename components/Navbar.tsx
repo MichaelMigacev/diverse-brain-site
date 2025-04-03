@@ -82,7 +82,7 @@ const Navbar = () => {
                         {/* English Button */}
                         <button
                             onClick={() => switchLanguage("")}
-                            className={`px-3 py-1 rounded transition-all duration-200 ${
+                            className={`px-1 sm:px-1 md:px-2 lg:px-3 py-1 rounded transition-all duration-200 ${
                                 currentLang === "en"
                                     ? "bg-white  text-gray-800 font-semibold" // Selected Language (EN)
                                     : "bg-white text-gray-400 "
@@ -94,7 +94,7 @@ const Navbar = () => {
                         {/* German Button */}
                         <button
                             onClick={() => switchLanguage("de")}
-                            className={`px-3 py-1 rounded transition-all duration-200${
+                            className={`px-1 sm:px-1 md:px-2 lg:px-3 py-1 rounded transition-all duration-200${
                                 currentLang === "de"
                                     ? "bg-white text-gray-800 font-semibold" // Selected Language (DE)
                                     : "bg-white text-gray-400"

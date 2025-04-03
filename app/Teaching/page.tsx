@@ -3,20 +3,20 @@ import Image from "next/image";
 export default function TeachingPage() {
     return (
         <div className="w-full mx-auto px-4">
-            <div className="max-w-6xl mx-auto overflow-hidden pb-16 h-40 sm:h-48 md:h-64 lg:h-80">
+            <div className="max-w-6xl mx-auto overflow-hidden pb-8 h-40 sm:h-48 md:h-64 lg:h-80">
                 <Image
                     src="/diverse-brain-site/pictures/collage_cropped.PNG" // Replace with your actual image path
                     alt="Teaching Page Banner"
                     width={1920}
                     height={540}
-                    className="object-cover w-full h-full sm:h-auto"
+                    className="object-cover w-full h-full"
                     priority
                 />
             </div>
             <div className="max-w-5xl mx-auto px-4">
                 {/* === Teacher Section === */}
                 <section className="mb-16">
-                    <h2 className="text-xl sm:text-xl md:text-2xl lg:text-2xl font-semibold mb-8 pb-2">
+                    <h2 className="text-xl sm:text-xl md:text-2xl lg:text-2xl font-semibold mb-8 pb-2 pt-16 lg:pt-8 md:pt-8">
                         Teaching Instructor
                     </h2>
 
