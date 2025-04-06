@@ -67,14 +67,14 @@ export default function Footer() {
                             alt="BMBF"
                             width={120}
                             height={120}
-                            className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
+                            className="h-16 sm:h-20 md:h-24 lg:h-30 w-auto object-contain"
                         />
                         <Image
                             src="/diverse-brain-site/logos/senat_logo_weiss.png"
                             alt="Senat"
                             width={120}
                             height={120}
-                            className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
+                            className="h-16 sm:h-20 md:h-24 lg:h-30 w-auto object-contain"
                         />
                     </div>
                 </div>

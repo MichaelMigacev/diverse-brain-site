@@ -74,6 +74,12 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
+                                Neuroplasticity{" "}
+                                <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
+                                    (cool concept)
+                                </span>
+                            </h3>
                             <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Can our brain self repair? How could such a
                                 complex organ do that? Here we try to answer the
