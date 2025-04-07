@@ -15,11 +15,11 @@ const nextConfig = {
       ];
   },
   output: "export", // Ensures a static export
-  basePath: "/diverse-brain-site", // Set this to your GitHub repository name
+  //basePath: "/diverse-brain-site", // Set this to your GitHub repository name
   images: {
     unoptimized: true, // Ensures Next.js images work on GitHub Pages
   },
-  assetPrefix: "/diverse-brain-site/", // Set this to your GitHub repository name
+  //assetPrefix: "/diverse-brain-site/", // Set this to your GitHub repository name
   trailingSlash: true, // Ensures URLs end with a slash to prevent broken paths
 };
 

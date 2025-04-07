@@ -7,28 +7,28 @@ export default function Footer() {
                 {/* Row 1 */}
                 <div className="flex flex-wrap justify-center gap-6 md:gap-12 mb-4 py-4">
                     <Image
-                        src="/diverse-brain-site/logos/FU_Logo.svg"
+                        src="/logos/FU_Logo.svg"
                         alt="FU Berlin"
                         width={120}
                         height={120}
                         className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                     <Image
-                        src="/diverse-brain-site/logos/HU_Logo.svg"
+                        src="/logos/HU_Logo.svg"
                         alt="HU Berlin"
                         width={120}
                         height={120}
                         className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                     <Image
-                        src="/diverse-brain-site/logos/TU_Logo.svg"
+                        src="/logos/TU_Logo.svg"
                         alt="TU Berlin"
                         width={120}
                         height={120}
                         className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                     <Image
-                        src="/diverse-brain-site/logos/Char_Logo.svg"
+                        src="/logos/Char_Logo.svg"
                         alt="Charité"
                         width={120}
                         height={120}
@@ -39,14 +39,14 @@ export default function Footer() {
                 {/* Row 2 */}
                 <div className="flex flex-wrap justify-center gap-6 md:gap-12 mb-4 py-4">
                     <Image
-                        src="/diverse-brain-site/logos/CCNB-blau-s.jpg"
+                        src="/logos/CCNB-blau-s.jpg"
                         alt="CCNB"
                         width={120}
                         height={120}
                         className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
                     />
                     <Image
-                        src="/diverse-brain-site/logos/BUA_Logo_hoch_2_RGB_24.svg"
+                        src="/logos/BUA_Logo_hoch_2_RGB_24.svg"
                         alt="BUA"
                         width={120}
                         height={120}
@@ -63,14 +63,14 @@ export default function Footer() {
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 text-center py-4">
                     <div className="flex gap-6 md:gap-12">
                         <Image
-                            src="/diverse-brain-site/logos/BMBF_logo_weiss.jpg"
+                            src="/logos/BMBF_logo_weiss.jpg"
                             alt="BMBF"
                             width={120}
                             height={120}
                             className="h-16 sm:h-20 md:h-24 lg:h-30 w-auto object-contain"
                         />
                         <Image
-                            src="/diverse-brain-site/logos/senat_logo_weiss.png"
+                            src="/logos/senat_logo_weiss.png"
                             alt="Senat"
                             width={120}
                             height={120}

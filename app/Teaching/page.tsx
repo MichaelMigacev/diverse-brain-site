@@ -5,7 +5,7 @@ export default function TeachingPage() {
         <div className="w-full mx-auto px-4">
             <div className="max-w-6xl mx-auto overflow-hidden pb-8 h-40 sm:h-48 md:h-64 lg:h-80">
                 <Image
-                    src="/diverse-brain-site/pictures/collage_cropped.PNG" // Replace with your actual image path
+                    src="/pictures/collage_cropped.PNG" // Replace with your actual image path
                     alt="Teaching Page Banner"
                     width={1920}
                     height={540}
@@ -25,7 +25,7 @@ export default function TeachingPage() {
                         {/* Image + Name */}
                         <div className="flex flex-col gap-4 px-16 sm:w-1/2">
                             <Image
-                                src="/diverse-brain-site/people/Micha_test.jpeg"
+                                src="/people/Micha_test.jpeg"
                                 alt="Michael Migacev"
                                 width={1000}
                                 height={1000}
@@ -74,7 +74,7 @@ export default function TeachingPage() {
                         {/* Image + Name */}
                         <div className="flex flex-col gap-4 px-16 sm:w-1/2">
                             <Image
-                                src="/diverse-brain-site/pictures/slicercleancoloredblue.png"
+                                src="/pictures/slicercleancoloredblue.png"
                                 alt="Sara Wesolek"
                                 width={1000}
                                 height={1000}
@@ -102,7 +102,7 @@ export default function TeachingPage() {
                         {/* Image + Name */}
                         <div className="flex flex-col gap-4 px-16 sm:w-1/2">
                             <Image
-                                src="/diverse-brain-site/people/sascha.jpeg"
+                                src="/people/sascha.jpeg"
                                 alt="Teacher 1"
                                 width={1000}
                                 height={1000}
@@ -122,7 +122,7 @@ export default function TeachingPage() {
                         {/* Image + Name */}
                         <div className="flex flex-col gap-4 px-16 sm:w-1/2">
                             <Image
-                                src="/diverse-brain-site/people/Gian1.jpg"
+                                src="/people/Gian1.jpg"
                                 alt="Gian Giannini"
                                 width={1000}
                                 height={1000}
@@ -144,7 +144,7 @@ export default function TeachingPage() {
                         {/* Image + Name */}
                         <div className="flex flex-col gap-4 px-16 sm:w-1/2">
                             <Image
-                                src="/diverse-brain-site/pictures/slicercleancoloredblue.png"
+                                src="/pictures/slicercleancoloredblue.png"
                                 alt="Teacher 1"
                                 width={1000}
                                 height={1000}
@@ -171,7 +171,7 @@ export default function TeachingPage() {
                         {/* Image + Name */}
                         <div className="flex flex-col gap-4 px-16 sm:w-1/2">
                             <Image
-                                src="/diverse-brain-site/people/Timo-1.jpg"
+                                src="/people/Timo-1.jpg"
                                 alt="Dr. Timo Schmidt"
                                 width={1000}
                                 height={1000}
@@ -196,7 +196,7 @@ export default function TeachingPage() {
                         {/* Image + Name */}
                         <div className="flex flex-col gap-4 px-16 sm:w-1/2">
                             <Image
-                                src="/diverse-brain-site/people/Felix_3.jpg"
+                                src="/people/Felix_3.jpg"
                                 alt="Prof. Felix Blankenburg"
                                 width={1000}
                                 height={1000}

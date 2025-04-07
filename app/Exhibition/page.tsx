@@ -8,7 +8,7 @@ export default function ExhibitionPage() {
             <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
                 <div className="text-center mb-12">
                     <Image
-                        src="/diverse-brain-site/logos/logo_blue_writing.svg" // Correct path to the logo image
+                        src="/logos/logo_blue_writing.svg" // Correct path to the logo image
                         alt="Logo Blue"
                         width={0} // Set width to 0 to allow width control by Tailwind
                         height={0} // Set height to 0 to allow height control by Tailwind
@@ -74,30 +74,34 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
-                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black space-y-1">
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
                                 Neuroplasticity{" "}
-                                <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800">
-                                    (cool concept)
-                                </span>
+                                <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800"></span>
                             </h3>
                             <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
-                                Can our brain self repair? How could such a
-                                complex organ do that? Here we try to answer the
-                                question and bring understanding to the complex
-                                mechanisms involved with repairing broken
-                                connections. Get an intuitive understanding of
-                                key functions responsible for neural
-                                reorganization. The piece prompts you to
-                                interact and discover these mechanism yourself.
-                                Through trial and error you are guided to the
-                                correct answer as you slowly discover and
-                                fortify the new gained knowledge. It features
-                                additional descriptions further deepening our
-                                understanding of neuroplasticity.
+                                Can our brain self repair? If it could how would
+                                it do that? Both of these questions are shown in
+                                this piece. To answer them we attempt to let the
+                                visitor discover how a complex organ such as the
+                                brain recovers from internal damage. This
+                                highlights not only the broader fascinating
+                                concept of &quot;Neuroplasticity&quot; but also
+                                some important details of the individual
+                                building blocks that make up and result in our
+                                incredible mental flexibility. We do that by
+                                providing a laser cut wooden board with a
+                                presumably damaged brain on it. The visitors
+                                task is to fill in certain gaps with matching
+                                tiles to simulate mechanisms of neuroplasticity.
+                                The tiles are aided by short explanatory text in
+                                a delicate balance of explain and explore.
+                                Additionally they are recognized by the board so
+                                successful completion can be indicated by a
+                                green light.
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/diverse-brain-site/pictures/puzzle_simple.jpeg" />
+                    <BlurImage src="/pictures/puzzle_simple.jpeg" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -134,22 +138,33 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
+                                Left & Right Brain{" "}
+                                <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800"></span>
+                            </h3>
                             <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
-                                Am I a right or left brained person? These are
-                                one of the many questions people seem to be
-                                interested in. But how can we answer this
-                                question? This project carefully guides you to a
-                                simple and shocking solution. The brain halves
-                                are represented playfully in front of the
-                                visitor where they can interact with them and
-                                see differences in activity depending on the
-                                quality of the task. Sometimes the solution is
-                                exceptionally clear people tend to get lost
-                                easily.
+                                Am I a right or left brained person? Most
+                                research suggests a simple answer to this
+                                question. You are neither, but rather than
+                                informing our visitors through difficult text we
+                                drive the point home visually. This piece
+                                focuses on the point that there is no dominant
+                                brain half in terms of activity. We illustrate
+                                it by printing a labyrinth resembling a brain
+                                and simulate a 50/50 activity distribution with
+                                LEDs hidden underneath our brain. The visitor is
+                                prompted to press buttons for logical and
+                                creative thinking only to be led to a written
+                                conclusion, which explains that both of these
+                                options result in the same randomly prioritised
+                                activity. We do this as an exageration to the
+                                common misconception which suggests that one
+                                brain half sits idle while the other one is
+                                engaged in logic and or creativity.
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/diverse-brain-site/pictures/labyrinth_simple.jpeg" />
+                    <BlurImage src="/pictures/labyrinth_simple.jpeg" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -191,7 +206,7 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/diverse-brain-site/pictures/marble_simple.jpeg" />
+                    <BlurImage src="/pictures/marble_simple.jpeg" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -226,7 +241,7 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/diverse-brain-site/pictures/brain_simple.jpeg" />
+                    <BlurImage src="/pictures/brain_simple.jpeg" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -283,7 +298,7 @@ export default function ExhibitionPage() {
                         </div>
                     </div>
 
-                    <BlurImage src="/diverse-brain-site/pictures/printing_rainbow.jpeg" />
+                    <BlurImage src="/pictures/printing_rainbow.jpeg" />
                 </div>
 
                 {/* <div className="max-w-7xl mx-auto my-12 px-4">
