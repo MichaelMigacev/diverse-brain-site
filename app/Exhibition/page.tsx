@@ -191,6 +191,10 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
+                                Memory & Sleep{" "}
+                                <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800"></span>
+                            </h3>
                             <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Do our brains turn off when we go to sleep?
                                 Well, no but what is actually happening in there
@@ -229,6 +233,10 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
+                                Brain Display{" "}
+                                <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800"></span>
+                            </h3>
                             <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Everybody presumably thinks in different ways
                                 and has their own world in their head. How can
@@ -268,6 +276,10 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
+                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
+                                Live 3D-Printing{" "}
+                                <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800"></span>
+                            </h3>
                             <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 How did we print those brains you just saw? This
                                 piece is less about a certain scientific mystery
@@ -354,7 +366,7 @@ function BlurImage({ src }: { src: string }) {
                 alt="Exhibition Piece"
                 width={1200}
                 height={1000}
-                className="object-cover w-full h-full filter blur-md sm:h-auto"
+                className="object-cover w-full h-full filter sm:h-auto"
             />
 
             {/* Clear Image with circular mask */}

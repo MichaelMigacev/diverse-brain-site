@@ -34,9 +34,6 @@ export default function TeachingPage() {
                             <p className="text-base sm:text-base md:text-lg lg:text-lg font-semibold">
                                 Michael Migacev
                             </p>
-                            <p className="font-normal text-base sm:text-base md:text-lg lg:text-lg text-gray-800">
-                                Not Final Picture (I promise)
-                            </p>
                         </div>
                         {/* Contributions */}
                         <ul className="list-inside text-base sm:text-base md:text-lg lg:text-lg font-medium w-full sm:w-1/2 px-8">
@@ -74,7 +71,7 @@ export default function TeachingPage() {
                         {/* Image + Name */}
                         <div className="flex flex-col gap-4 px-16 sm:w-1/2">
                             <Image
-                                src="/pictures/Sara-1.JPG"
+                                src="/people/Sara-1.JPG"
                                 alt="Sara Wesolek"
                                 width={1000}
                                 height={1000}
