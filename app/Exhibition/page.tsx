@@ -164,7 +164,7 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/labyrinth_simple.jpeg" />
+                    <BlurImage src="/pictures/labyrinth_new.JPG" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -202,11 +202,15 @@ export default function ExhibitionPage() {
                                 process. This piece focuses on the memory aspect
                                 of sleep while explaining the impacts of the
                                 phases on the memory formation with a 3D-printed
-                                marble run. A marble run!
+                                marble run. The marble run is consisting out of
+                                different hubs for each sleep phase, where one
+                                can watch the marble roll and read about the
+                                impact this sleep phase could have on memory
+                                formation.
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/marble_simple.jpeg" />
+                    <BlurImage src="/pictures/marble_new.JPG" />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -226,17 +230,21 @@ export default function ExhibitionPage() {
                         {/* Description on the Right */}
                         <div>
                             <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
-                                Everybody presumably thinks in different ways.
-                                How can you think in different ways when all the
-                                brains look the same? The key to the question is
-                                realizing they don&apos;t all look the same. One
-                                can see this in MR Images, in statistics and can
-                                read it in papers. But can we actually see the
-                                difference? This piece prompts you to just see
-                                for yourself! We printed 10 brains from
-                                different people. You can look at them and
-                                discover similarities most of them have and
-                                acknowledge the differences that make us all
+                                Everybody presumably thinks in different ways
+                                and has their own world in their head. How can
+                                you think in different ways when all the brains
+                                look the same? While there are many aspects
+                                invisible to the human eye that could differ and
+                                influence the way we think. But there is also a
+                                key fact most people don&apos;t think about. And
+                                that is that brains do not look the same at all.
+                                One can see this in MR Images, in statistics and
+                                can read it in papers. But can we actually see
+                                the difference? This piece prompts you to just
+                                see for yourself! We scanned and printed 10
+                                brains from different people. You can look at
+                                them and discover similarities most of them have
+                                and acknowledge the differences that make us all
                                 unique!
                             </p>
                         </div>
@@ -265,12 +273,12 @@ export default function ExhibitionPage() {
                                 piece is less about a certain scientific mystery
                                 but more about 3D-printing itself. Slowly
                                 forming in front of the visitors eyes is a
-                                3D-print of a brain. Yes, live 3D-printing!
-                                Being open about our science and methods is
-                                something we are proud of. To stay true to this
-                                we linking our repository on how to process and
-                                print your own brain:
-                                <span className="text-xl font-semibold">
+                                3D-print of a brain (in a safe enclosure). Yes,
+                                live 3D-printing! Being open about our science
+                                and methods is something we are proud of. To
+                                stay true to this we linking our repository on
+                                how to process and print your own brain:
+                                <span className="text-base sm:text-base md:text-lg lg:text-xl font-semibold">
                                     {" "}
                                     <a
                                         href="https://github.com/printyourbrain/3DPrintYourBrain"
@@ -282,8 +290,8 @@ export default function ExhibitionPage() {
                                     </a>{" "}
                                 </span>
                                 We have tried our best to make it easy and have
-                                a complimentary video linked as well:{" "}
-                                <span className="text-xl font-semibold">
+                                a complimentary video linked as well:
+                                <span className="text-base sm:text-base md:text-lg lg:text-xl font-semibold">
                                     {" "}
                                     <a
                                         href="https://www.youtube.com/watch?v=MWKAPG3rMBI"
@@ -298,7 +306,7 @@ export default function ExhibitionPage() {
                         </div>
                     </div>
 
-                    <BlurImage src="/pictures/printing_rainbow.jpeg" />
+                    <BlurImage src="/pictures/printer_image_new.PNG" />
                 </div>
 
                 {/* <div className="max-w-7xl mx-auto my-12 px-4">
