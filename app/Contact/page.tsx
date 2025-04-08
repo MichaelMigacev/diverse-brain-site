@@ -12,7 +12,7 @@ export default function TeachingPage() {
                     {/* Image + Name */}
                     <div className="flex flex-col gap-4 px-16 sm:w-1/3">
                         <Image
-                            src="/people/Micha_test.jpeg"
+                            src="/people/Micha-1.JPG"
                             alt="Michael Migacev"
                             width={1000}
                             height={1000}
