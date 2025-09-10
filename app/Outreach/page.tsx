@@ -19,6 +19,19 @@ export default function OutreachPage() {
                     </a>
                     <p className="text-gray-600 mt-1">November 2024</p>
                 </div>
+                {/* Outreach Item 1 */}
+                <div>
+                    <a
+                        href="https://www.fu-berlin.de/campusleben/campus/2024/241118-meet-the-bua/index.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-2xl font-semibold"
+                    >
+                        The Diverse Brain Course featured at &quot;Greet the
+                        BUA&quot;
+                    </a>
+                    <p className="text-gray-600 mt-1">November 2024</p>
+                </div>
             </div>
         </div>
     );
