@@ -1,4 +1,7 @@
 import { redirect } from "next/navigation";
+import Slideshow from "../components/Slideshow";
+
+const images = Array.from({ length: 34 }, (_, i) => `/event/img_${i + 1}.jpg`);
 
 export default function Home() {
     if (
@@ -7,5 +10,12 @@ export default function Home() {
     ) {
         redirect("/Exhibition");
     }
-    return null; // Prevents an empty render
+    return (
+        <div className="pt-24">
+            <h1 className="text-4xl font-bold text-center mb-8">
+                Exhibition Slideshow
+            </h1>
+            <Slideshow images={images} />
+        </div>
+    ); // Prevents an empty render
 }

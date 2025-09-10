@@ -19,18 +19,18 @@ export default function OutreachPage() {
                     </a>
                     <p className="text-gray-600 mt-1">November 2024</p>
                 </div>
-                {/* Outreach Item 1 */}
+                {/* Outreach Item 2 */}
                 <div>
                     <a
-                        href="https://www.fu-berlin.de/campusleben/campus/2024/241118-meet-the-bua/index.html"
+                        href="https://epaper-tagesspiegel.weekli.de/prospekt/a3-b1-c4777-d3456391-fDE-g15320?region=der-tagesspiegel-ga&refHost=epaper.tagesspiegel.de&page=20"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-2xl font-semibold"
                     >
-                        The Diverse Brain Course featured at &quot;Greet the
-                        BUA&quot;
+                        The Diverse Brain Course featured in
+                        &quot;Tagesspiegel&quot;
                     </a>
-                    <p className="text-gray-600 mt-1">November 2024</p>
+                    <p className="text-gray-600 mt-1">Juni 2025</p>
                 </div>
             </div>
         </div>

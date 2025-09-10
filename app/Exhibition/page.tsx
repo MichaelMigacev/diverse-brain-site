@@ -15,6 +15,7 @@ export default function ExhibitionPage() {
                         className="mx-auto w-2/3 sm:w-2/3 md:1/2 lg:w-1/3 h-auto" // Centers and sets the width to 50%
                     />
                 </div>
+
                 {/* Section 1: Title */}
                 <div className="text-center max-w-4xl mb-24 mx-auto">
                     <p className="mt-4 text-lg sm:text-lg md:text-xl lg:text-2xl text-black font-semibold text-justify">
