@@ -1,7 +1,10 @@
 import { redirect } from "next/navigation";
 import Slideshow from "../components/Slideshow";
 
-const images = Array.from({ length: 34 }, (_, i) => `/event/img_${i + 1}.jpg`);
+const images = Array.from(
+    { length: 34 },
+    (_, i) => `/exhibition/event/img_${i + 1}.jpg`
+);
 
 export default function Home() {
     if (
