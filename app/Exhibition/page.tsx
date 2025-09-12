@@ -20,9 +20,7 @@ export default function ExhibitionPage() {
                         className="mx-auto w-2/3 sm:w-2/3 md:1/2 lg:w-1/3 h-auto" // Centers and sets the width to 50%
                     />
                 </div>
-                <div className="pt-24">
-                    <Slideshow images={images} />
-                </div>
+
                 {/* Section 1: Title */}
                 <div className="text-center max-w-4xl mb-24 mx-auto">
                     <p className="mt-4 text-lg sm:text-lg md:text-xl lg:text-2xl text-black font-semibold text-justify">
@@ -46,7 +44,9 @@ export default function ExhibitionPage() {
                         we could.
                     </p>
                 </div>
-
+                <div className="pt-24">
+                    <Slideshow images={images} />
+                </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
                     <h3 className="text-base justify-center sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
@@ -155,14 +155,15 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            {/* Image */}
-                            <Image
-                                src="/exhibition-imgs/pieces/laser_edited_1_cropped.jpg"
-                                alt="Image of the neuroplasticity puzzle"
-                                width={400}
-                                height={400}
-                                className="object-cover w-56 h-56 md:w-72 md:h-72 rounded-lg shadow"
-                            />
+                            <div className="flex justify-center w-full">
+                                <Image
+                                    src="/exhibition-imgs/pieces/laser_edited_1_cropped.jpg"
+                                    alt="Image of the neuroplasticity puzzle"
+                                    width={400}
+                                    height={400}
+                                    className="object-cover w-56 h-56 md:w-96 md:h-96 rounded-lg shadow"
+                                />
+                            </div>
                         </div>
 
                         {/* Right Column: Description + References */}
