@@ -1,6 +1,11 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import Slideshow from "../../components/Slideshow";
+
+const images = Array.from(
+    { length: 34 },
+    (_, i) => `/exhibition-imgs/event/img${i + 1}.jpg`
+);
 
 export default function ExhibitionPage() {
     return (
@@ -15,7 +20,9 @@ export default function ExhibitionPage() {
                         className="mx-auto w-2/3 sm:w-2/3 md:1/2 lg:w-1/3 h-auto" // Centers and sets the width to 50%
                     />
                 </div>
-
+                <div className="pt-24">
+                    <Slideshow images={images} />
+                </div>
                 {/* Section 1: Title */}
                 <div className="text-center max-w-4xl mb-24 mx-auto">
                     <p className="mt-4 text-lg sm:text-lg md:text-xl lg:text-2xl text-black font-semibold text-justify">
@@ -42,6 +49,10 @@ export default function ExhibitionPage() {
 
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
+                    <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
+                        Neuroplasticity{" "}
+                        <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800"></span>
+                    </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                         {/* Participant Names on the Left */}
                         <div className="flex items-center justify-center">
@@ -75,10 +86,6 @@ export default function ExhibitionPage() {
 
                         {/* Description on the Right */}
                         <div>
-                            <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
-                                Neuroplasticity{" "}
-                                <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800"></span>
-                            </h3>
                             <p className="text-black text-base sm:text-base md:text-lg lg:text-xl font-medium text-justify sm:px-8 md:px-12 lg:px-16 py-4">
                                 Can our brain self repair? If it could how would
                                 it do that? Both of these questions are shown in
@@ -102,7 +109,13 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/puzzle_simple.jpeg" />
+                    <Image
+                        src="/exhibition-imgs/laser_edited_1_cropped.jpg"
+                        alt="Image of the neuroplasticity puzzle"
+                        width={1000}
+                        height={1000}
+                        className="object-cover w-56 h-56"
+                    />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -165,7 +178,13 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/labyrinth_new.JPG" />
+                    <Image
+                        src="/exhibition-imgs/labyrinth_edited_1_cropped.jpg"
+                        alt="Image of the left and right brain labyrinth"
+                        width={1000}
+                        height={1000}
+                        className="object-cover w-56 h-56"
+                    />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -215,7 +234,13 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/marble_new.JPG" />
+                    <Image
+                        src="/exhibition-imgs/labyrinth_edited_1_cropped.jpg"
+                        alt="Image of the left and right brain labyrinth"
+                        width={1000}
+                        height={1000}
+                        className="object-cover w-56 h-56"
+                    />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -258,7 +283,13 @@ export default function ExhibitionPage() {
                             </p>
                         </div>
                     </div>
-                    <BlurImage src="/pictures/brain_simple.jpeg" />
+                    <Image
+                        src="/exhibition-imgs/labyrinth_edited_1_cropped.jpg"
+                        alt="Image of the left and right brain labyrinth"
+                        width={1000}
+                        height={1000}
+                        className="object-cover w-56 h-56"
+                    />
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -319,7 +350,13 @@ export default function ExhibitionPage() {
                         </div>
                     </div>
 
-                    <BlurImage src="/pictures/printer_image_new.PNG" />
+                    <Image
+                        src="/exhibition-imgs/labyrinth_edited_1_cropped.jpg"
+                        alt="Image of the left and right brain labyrinth"
+                        width={1000}
+                        height={1000}
+                        className="object-cover w-56 h-56"
+                    />
                 </div>
 
                 {/* <div className="max-w-7xl mx-auto my-12 px-4">
@@ -344,47 +381,6 @@ export default function ExhibitionPage() {
                     </div>
                     <BlurImage src="/diverse-brain-site/pictures/slicercleancolored1.png" />
                 </div> */}
-            </div>
-        </div>
-    );
-}
-
-function BlurImage({ src }: { src: string }) {
-    const [mousePosition, setMousePosition] = useState({ x: -9999, y: -9999 });
-
-    return (
-        <div
-            className="w-full h-32 sm:h-40 md:h-64 lg:h-80 bg-gray-200 relative overflow-hidden"
-            onMouseMove={(e) => {
-                const { left, top } = e.currentTarget.getBoundingClientRect();
-                setMousePosition({ x: e.clientX - left, y: e.clientY - top });
-            }}
-            onMouseLeave={() => setMousePosition({ x: -9999, y: -9999 })}
-        >
-            {/* Blurred Image */}
-            <Image
-                src={src}
-                alt="Exhibition Piece"
-                width={1200}
-                height={1000}
-                className="object-cover w-full h-full filter sm:h-auto"
-            />
-
-            {/* Clear Image with circular mask */}
-            <div
-                className="absolute inset-0 pointer-events-none"
-                style={{
-                    maskImage: `radial-gradient(circle 150px at ${mousePosition.x}px ${mousePosition.y}px, black 0%, transparent 100%)`,
-                    WebkitMaskImage: `radial-gradient(circle 150px at ${mousePosition.x}px ${mousePosition.y}px, black 0%, transparent 100%)`,
-                }}
-            >
-                <Image
-                    src={src}
-                    alt="Exhibition Piece Clear"
-                    width={1200}
-                    height={1000}
-                    className="object-cover w-full h-full sm:h-auto"
-                />
             </div>
         </div>
     );

@@ -8,9 +8,6 @@ const images = Array.from(
 export default function Home() {
     return (
         <div className="pt-24">
-            <h1 className="text-4xl font-bold text-center mb-8">
-                Exhibition Slideshow
-            </h1>
             <Slideshow images={images} />
         </div>
     );
