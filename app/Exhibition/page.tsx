@@ -161,7 +161,7 @@ export default function ExhibitionPage() {
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-56 h-56 md:w-96 md:h-96 shadow"
+                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
                                 />
                             </div>
                         </div>
