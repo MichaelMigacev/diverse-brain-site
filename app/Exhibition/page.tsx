@@ -117,14 +117,14 @@ export default function ExhibitionPage() {
                         className="object-cover w-56 h-56"
                     />
                 </div>
-                <div className="max-w-7xl mx-auto my-12 px-4">
+                <div className="max-w-7xl mx-auto my-12 px-4 pt-8">
                     {/* Title */}
                     <h3 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-8">
                         Neuroplasticity
                     </h3>
 
                     {/* Grid Layout */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
                         {/* Left Column: Names + Image */}
                         <div className="flex flex-col items-center md:items-start space-y-6">
                             {/* Names */}
@@ -155,7 +155,7 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full">
+                            <div className="flex justify-center w-full pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/laser_edited_1_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
@@ -196,27 +196,30 @@ export default function ExhibitionPage() {
                                 happens on a scale relevant to healing and
                                 upholding neural function is still debated. [3]
                             </p>
-                            <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
+                            <p className="text-black text-base md:text-lg lg:text-xl font-semibold text-justify mb-6">
                                 References:
                             </p>
 
                             {/* References */}
                             <div className="text-xs text-gray-600 mt-auto">
                                 <p>
-                                    [1]: RP Stroemer, TA Kent, and CE
-                                    Hulsebosch. Synchronous neuronal activity is
-                                    a signal for axonal sprouting after cortical
-                                    lesions in the adult. The Journal of
-                                    Neuroscience, 22(14):6062–6070, July 2002.
+                                    <span className="font-semibold">[1]:</span>{" "}
+                                    RP Stroemer, TA Kent, and CE Hulsebosch.
+                                    Synchronous neuronal activity is a signal
+                                    for axonal sprouting after cortical lesions
+                                    in the adult. The Journal of Neuroscience,
+                                    22(14):6062–6070, July 2002.
                                 </p>
                                 <p>
-                                    [2]: Gregory Yiu and Zhigang He. Axonal
+                                    <span className="font-semibold">[2]:</span>:
+                                    Gregory Yiu and Zhigang He. Axonal
                                     regeneration: Underlying molecular
                                     mechanisms and potential therapeutic
                                     targets. Biomedicines, 10(12):3186, 2022.
                                 </p>
                                 <p>
-                                    [3]: Dong Sun, Raymond J Colello, William P
+                                    <span className="font-semibold">[3]:</span>:
+                                    Dong Sun, Raymond J Colello, William P
                                     Daugherty, Taejung H Kwon, Michael J McGinn,
                                     and C Edward Dixon. Neurogenesis in adult
                                     human brain after traumatic brain injury.
