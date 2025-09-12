@@ -20,7 +20,7 @@ export default function Slideshow({ images }: SlideshowProps) {
     return (
         <div className="w-full max-w-4xl mx-auto">
             {/* Main Image */}
-            <div className="relative w-full h-96 bg-gray-200 overflow-hidden rounded-lg">
+            <div className="relative w-full h-96 bg-white overflow-hidden rounded-lg">
                 <Image
                     src={images[current]}
                     alt={`Slide ${current + 1}`}
@@ -49,7 +49,7 @@ export default function Slideshow({ images }: SlideshowProps) {
             <div className="mt-4 flex justify-center gap-8">
                 {/* Previous preview */}
                 <div
-                    className="w-24 h-16 cursor-pointer overflow-hidden rounded border"
+                    className="w-48 h-32 cursor-pointer overflow-hidden rounded border"
                     onClick={prevSlide}
                 >
                     <Image
@@ -59,22 +59,22 @@ export default function Slideshow({ images }: SlideshowProps) {
                             ]
                         }
                         alt="Previous Preview"
-                        width={200}
-                        height={120}
+                        width={400}
+                        height={240}
                         className="object-cover w-full h-full"
                     />
                 </div>
 
                 {/* Next preview */}
                 <div
-                    className="w-24 h-16 cursor-pointer overflow-hidden rounded border"
+                    className="w-48 h-32 cursor-pointer overflow-hidden rounded border"
                     onClick={nextSlide}
                 >
                     <Image
                         src={images[(current + 1) % images.length]}
                         alt="Next Preview"
-                        width={200}
-                        height={120}
+                        width={400}
+                        height={240}
                         className="object-cover w-full h-full"
                     />
                 </div>
