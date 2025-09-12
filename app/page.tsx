@@ -2,7 +2,7 @@ import Slideshow from "../components/Slideshow";
 
 const images = Array.from(
     { length: 34 },
-    (_, i) => `/exhibition/event/img${i + 1}.jpg`
+    (_, i) => `/exhibition-imgs/event/img${i + 1}.jpg`
 );
 
 export default function Home() {
