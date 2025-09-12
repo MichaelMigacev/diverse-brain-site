@@ -174,27 +174,37 @@ export default function ExhibitionPage() {
                                 recover after brain damage, neuroplasticty
                                 proves otherwise. Dendritic remodeling, axonal
                                 sprouting, and neurogenesis play crucial role in
-                                the recovery process. In this piece we playfully
-                                highlight some aspects of neuroplasticity and
-                                simulate a healing brain by placing the correct
-                                tiles into the correct cutouts. We primarily
-                                focus on 3 parts of neuroplasticity: 1.
-                                Dendritic remodeling involves changes in the
+                                the recovery process.
+                            </p>
+                            <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
+                                In this piece we playfully highlight some
+                                aspects of neuroplasticity and simulate a
+                                healing brain by placing the correct tiles into
+                                the correct cutouts. We primarily focus on 3
+                                parts of neuroplasticity:
+                            </p>
+                            <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
+                                1. Dendritic remodeling involves changes in the
                                 dendrites which are branches of neurons that
                                 receive information from other neurons. This
                                 process helps neurons adapt to new functions and
-                                rebuild damaged circuits. [1] 2. Axonal
-                                sprouting occurs when neighboring neurons extend
-                                their axons to establish new connections with
-                                damaged brain regions. That helps in restoring
-                                lost neural paths and functional connections.
-                                [2] 3. New neurons can be generated in certain
-                                brain regions. Newly generated neurons
-                                collaborate with existing connections, and
-                                contribute to restoring cognitive functions such
-                                as memory and learning. Whether neurogenesis
-                                happens on a scale relevant to healing and
-                                upholding neural function is still debated. [3]
+                                rebuild damaged circuits. [1]
+                            </p>
+                            <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
+                                2. Axonal sprouting occurs when neighboring
+                                neurons extend their axons to establish new
+                                connections with damaged brain regions. That
+                                helps in restoring lost neural paths and
+                                functional connections. [2]
+                            </p>
+                            <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
+                                3. New neurons can be generated in certain brain
+                                regions. Newly generated neurons collaborate
+                                with existing connections, and contribute to
+                                restoring cognitive functions such as memory and
+                                learning. Whether neurogenesis happens on a
+                                scale relevant to healing and upholding neural
+                                function is still debated. [3]
                             </p>
                             <p className="text-black text-base md:text-lg lg:text-xl font-semibold text-justify mb-6">
                                 References:
