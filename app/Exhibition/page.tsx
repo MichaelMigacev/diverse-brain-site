@@ -49,7 +49,7 @@ export default function ExhibitionPage() {
 
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
-                    <h3 className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
+                    <h3 className="text-base justify-center sm:text-base md:text-lg lg:text-xl font-semibold text-black sm:px-8 md:px-12 lg:px-16 space-y-1">
                         Neuroplasticity{" "}
                         <span className="font-normal text-sm sm:text-sm md:text-base lg:text-lg text-gray-800"></span>
                     </h3>
@@ -110,12 +110,93 @@ export default function ExhibitionPage() {
                         </div>
                     </div>
                     <Image
-                        src="/exhibition-imgs/laser_edited_1_cropped.jpg"
+                        src="/exhibition-imgs/pieces/laser_edited_1_cropped.jpg"
                         alt="Image of the neuroplasticity puzzle"
                         width={1000}
                         height={1000}
                         className="object-cover w-56 h-56"
                     />
+                </div>
+                <div className="max-w-7xl mx-auto my-12 px-4">
+                    {/* Title */}
+                    <h3 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-8">
+                        Neuroplasticity
+                    </h3>
+
+                    {/* Grid Layout */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        {/* Left Column: Names + Image */}
+                        <div className="flex flex-col items-center md:items-start space-y-6">
+                            {/* Names */}
+                            <div className="space-y-2 text-center md:text-left">
+                                <p className="text-base md:text-lg font-semibold text-black">
+                                    Cora-Lorraine Sachs{" "}
+                                    <span className="font-normal text-gray-700 text-sm md:text-base">
+                                        Psychology (FU Berlin)
+                                    </span>
+                                </p>
+                                <p className="text-base md:text-lg font-semibold text-black">
+                                    Nazlican Göksu Tekdogan{" "}
+                                    <span className="font-normal text-gray-700 text-sm md:text-base">
+                                        Computational Sciences (FU Berlin)
+                                    </span>
+                                </p>
+                                <p className="text-base md:text-lg font-semibold text-black">
+                                    Jakob Schmock{" "}
+                                    <span className="font-normal text-gray-700 text-sm md:text-base">
+                                        Computer Science (FU Berlin)
+                                    </span>
+                                </p>
+                                <p className="text-base md:text-lg font-semibold text-black">
+                                    Jonas Heinemann{" "}
+                                    <span className="font-normal text-gray-700 text-sm md:text-base">
+                                        Computer Science (FU Berlin)
+                                    </span>
+                                </p>
+                            </div>
+
+                            {/* Image */}
+                            <Image
+                                src="/exhibition-imgs/pieces/laser_edited_1_cropped.jpg"
+                                alt="Image of the neuroplasticity puzzle"
+                                width={400}
+                                height={400}
+                                className="object-cover w-56 h-56 md:w-72 md:h-72 rounded-lg shadow"
+                            />
+                        </div>
+
+                        {/* Right Column: Description + References */}
+                        <div className="flex flex-col justify-between">
+                            {/* Description */}
+                            <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
+                                Can our brain self repair? If it could how would
+                                it do that? Both of these questions are shown in
+                                this piece. To answer them we attempt to let the
+                                visitor discover how a complex organ such as the
+                                brain recovers from internal damage. This
+                                highlights not only the broader fascinating
+                                concept of &quot;Neuroplasticity&quot; but also
+                                some important details of the individual
+                                building blocks that make up and result in our
+                                incredible mental flexibility. We do that by
+                                providing a laser cut wooden board with a
+                                presumably damaged brain on it. The visitors
+                                task is to fill in certain gaps with matching
+                                tiles to simulate mechanisms of neuroplasticity.
+                                The tiles are aided by short explanatory text in
+                                a delicate balance of explain and explore.
+                                Additionally they are recognized by the board so
+                                successful completion can be indicated by a
+                                green light.
+                            </p>
+
+                            {/* References */}
+                            <div className="text-xs text-gray-600 mt-auto">
+                                <p>Reference 1: Some article or book</p>
+                                <p>Reference 2: Another relevant work</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="max-w-7xl mx-auto my-12 px-4">
                     {/* Text Section */}
@@ -179,7 +260,7 @@ export default function ExhibitionPage() {
                         </div>
                     </div>
                     <Image
-                        src="/exhibition-imgs/labyrinth_edited_1_cropped.jpg"
+                        src="/exhibition-imgs/pieces/labyrinth_edited_1_cropped.jpg"
                         alt="Image of the left and right brain labyrinth"
                         width={1000}
                         height={1000}
@@ -235,7 +316,7 @@ export default function ExhibitionPage() {
                         </div>
                     </div>
                     <Image
-                        src="/exhibition-imgs/labyrinth_edited_1_cropped.jpg"
+                        src="/exhibition-imgs/pieces/labyrinth_edited_1_cropped.jpg"
                         alt="Image of the left and right brain labyrinth"
                         width={1000}
                         height={1000}
@@ -284,7 +365,7 @@ export default function ExhibitionPage() {
                         </div>
                     </div>
                     <Image
-                        src="/exhibition-imgs/labyrinth_edited_1_cropped.jpg"
+                        src="/exhibition-imgs/pieces/labyrinth_edited_1_cropped.jpg"
                         alt="Image of the left and right brain labyrinth"
                         width={1000}
                         height={1000}
@@ -351,7 +432,7 @@ export default function ExhibitionPage() {
                     </div>
 
                     <Image
-                        src="/exhibition-imgs/labyrinth_edited_1_cropped.jpg"
+                        src="/exhibition-imgs/pieces/labyrinth_edited_1_cropped.jpg"
                         alt="Image of the left and right brain labyrinth"
                         width={1000}
                         height={1000}
