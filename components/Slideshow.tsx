@@ -18,7 +18,7 @@ export default function Slideshow({ images }: SlideshowProps) {
     };
 
     return (
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full max-w-6xl mx-auto">
             {/* Main Image */}
             <div className="relative w-full h-96 bg-white overflow-hidden rounded-lg">
                 <Image

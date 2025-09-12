@@ -161,7 +161,7 @@ export default function ExhibitionPage() {
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-56 h-56 md:w-96 md:h-96 rounded-lg shadow"
+                                    className="object-cover w-56 h-56 md:w-96 md:h-96 shadow"
                                 />
                             </div>
                         </div>
@@ -170,31 +170,58 @@ export default function ExhibitionPage() {
                         <div className="flex flex-col justify-between">
                             {/* Description */}
                             <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
-                                Can our brain self repair? If it could how would
-                                it do that? Both of these questions are shown in
-                                this piece. To answer them we attempt to let the
-                                visitor discover how a complex organ such as the
-                                brain recovers from internal damage. This
-                                highlights not only the broader fascinating
-                                concept of &quot;Neuroplasticity&quot; but also
-                                some important details of the individual
-                                building blocks that make up and result in our
-                                incredible mental flexibility. We do that by
-                                providing a laser cut wooden board with a
-                                presumably damaged brain on it. The visitors
-                                task is to fill in certain gaps with matching
-                                tiles to simulate mechanisms of neuroplasticity.
-                                The tiles are aided by short explanatory text in
-                                a delicate balance of explain and explore.
-                                Additionally they are recognized by the board so
-                                successful completion can be indicated by a
-                                green light.
+                                While many people believe the brain cannot
+                                recover after brain damage, neuroplasticty
+                                proves otherwise. Dendritic remodeling, axonal
+                                sprouting, and neurogenesis play crucial role in
+                                the recovery process. In this piece we playfully
+                                highlight some aspects of neuroplasticity and
+                                simulate a healing brain by placing the correct
+                                tiles into the correct cutouts. We primarily
+                                focus on 3 parts of neuroplasticity: 1.
+                                Dendritic remodeling involves changes in the
+                                dendrites which are branches of neurons that
+                                receive information from other neurons. This
+                                process helps neurons adapt to new functions and
+                                rebuild damaged circuits. [1] 2. Axonal
+                                sprouting occurs when neighboring neurons extend
+                                their axons to establish new connections with
+                                damaged brain regions. That helps in restoring
+                                lost neural paths and functional connections.
+                                [2] 3. New neurons can be generated in certain
+                                brain regions. Newly generated neurons
+                                collaborate with existing connections, and
+                                contribute to restoring cognitive functions such
+                                as memory and learning. Whether neurogenesis
+                                happens on a scale relevant to healing and
+                                upholding neural function is still debated. [3]
+                            </p>
+                            <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
+                                References:
                             </p>
 
                             {/* References */}
                             <div className="text-xs text-gray-600 mt-auto">
-                                <p>Reference 1: Some article or book</p>
-                                <p>Reference 2: Another relevant work</p>
+                                <p>
+                                    [1]: RP Stroemer, TA Kent, and CE
+                                    Hulsebosch. Synchronous neuronal activity is
+                                    a signal for axonal sprouting after cortical
+                                    lesions in the adult. The Journal of
+                                    Neuroscience, 22(14):6062–6070, July 2002.
+                                </p>
+                                <p>
+                                    [2]: Gregory Yiu and Zhigang He. Axonal
+                                    regeneration: Underlying molecular
+                                    mechanisms and potential therapeutic
+                                    targets. Biomedicines, 10(12):3186, 2022.
+                                </p>
+                                <p>
+                                    [3]: Dong Sun, Raymond J Colello, William P
+                                    Daugherty, Taejung H Kwon, Michael J McGinn,
+                                    and C Edward Dixon. Neurogenesis in adult
+                                    human brain after traumatic brain injury.
+                                    Journal of Neurotrauma, 28(4):763–774, 2011.
+                                </p>
                             </div>
                         </div>
                     </div>
