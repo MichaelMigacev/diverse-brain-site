@@ -317,7 +317,7 @@ export default function ExhibitionPage() {
                                 working on a study which explores novel methods
                                 to record and analyze fMRI data resulting in
                                 ultra-high temporal resolution. This transforms
-                                the commonly seen 3D data into 4D data –
+                                the commonly seen 3D data into 4D data &mdash;
                                 activity patterns in three spatial dimensions
                                 across time. But how can these complex results
                                 be visualized?
@@ -330,8 +330,8 @@ export default function ExhibitionPage() {
                                 allowed us to attach LEDs along the shell. After
                                 cartographing each of the individual 204 LEDs,
                                 the lights can be individually addressed to
-                                display real study results – even complex data
-                                over time – on a 3D brain.
+                                display real study results &mdash; even complex
+                                data over time &mdash; on a 3D brain.
                             </p>
                             <p className="text-black text-base md:text-lg lg:text-xl font-medium text-justify mb-6">
                                 We hope to make neuroscientific research just a
@@ -425,7 +425,7 @@ export default function ExhibitionPage() {
                                     <span className="font-semibold">[2]:</span>:
                                     Craig, A. How do you feel? Interoception:
                                     the sense of the physiological condition of
-                                    the body. Nat Rev Neurosci 3, 655–666
+                                    the body. Nat Rev Neurosci 3, 655&mdash;666
                                     (2002). https://doi.org/10.1038/nrn894
                                 </p>
                             </div>
@@ -521,8 +521,8 @@ export default function ExhibitionPage() {
                                     <span className="font-semibold">[1]:</span>{" "}
                                     Škoch, A., Rehák Bučková, B., Mareš, J. et
                                     al. Human brain structural connectivity
-                                    matrices–ready for modelling. Sci Data 9,
-                                    486 (2022).
+                                    matrices&mdash;ready for modelling. Sci Data
+                                    9, 486 (2022).
                                     https://doi.org/10.1038/s41597-022-01596-9[1]:
                                     oinmckls am NJONCSAN cosd onk oincomlk nm
                                     aoi x20129 f sdjcn2981 10984u sdifj 193
@@ -733,7 +733,7 @@ export default function ExhibitionPage() {
                                     M., & Pascual-Leone, J. (2018). Brain areas
                                     associated with numbers and calculations in
                                     children: meta-analyses of fMRI studies.
-                                    Dev. Cogn. Neurosci. 30, 239–250.
+                                    Dev. Cogn. Neurosci. 30, 239&mdash;250.
                                 </p>
                                 <p>
                                     <span className="font-semibold">[3]:</span>:
@@ -888,8 +888,8 @@ export default function ExhibitionPage() {
                                     <span className="font-semibold">[2]:</span>:
                                     Klinzing, J.G., Niethard, N. & Born, J.
                                     Mechanisms of systems memory consolidation
-                                    during sleep. Nat Neurosci 22, 1598–1610
-                                    (2019).
+                                    during sleep. Nat Neurosci 22,
+                                    1598&mdash;1610 (2019).
                                     https://doi.org/10.1038/s41593-019-0467-3
                                 </p>
                             </div>
