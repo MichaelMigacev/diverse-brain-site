@@ -91,13 +91,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/laser_edited_1_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
@@ -195,13 +195,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/paul_edited_1_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
@@ -292,13 +292,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/LEDBrain_edited_2_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
@@ -360,13 +360,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/dome_edited_2_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
@@ -464,13 +464,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/connectivity_edited_1_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
@@ -552,13 +552,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/printing_edited_1_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
@@ -661,13 +661,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/labyrinth_edited_1_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
@@ -822,13 +822,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
-                                    src="/exhibition-imgs/pieces/marble_edited_2_cropped.jpg"
+                                    src="/exhibition-imgs/pieces/marble_edit_2_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
@@ -916,13 +916,13 @@ export default function ExhibitionPage() {
                                 </p>
                             </div>
 
-                            <div className="flex justify-center w-full pt-12">
+                            <div className="flex justify-center w-full max-w-md aspect-square pt-12">
                                 <Image
                                     src="/exhibition-imgs/pieces/kasey_img_cropped.jpg"
                                     alt="Image of the neuroplasticity puzzle"
                                     width={400}
                                     height={400}
-                                    className="object-cover w-72 h-72 md:w-120 md:h-120 shadow"
+                                    className="object-cover w-full h-full shadow"
                                 />
                             </div>
                         </div>
